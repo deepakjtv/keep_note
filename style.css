@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: lavender;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background-color: gold;
+    height: 2%;
+}
+.title {
+    background-color: #ffd700;
+    height: 60px;
+    padding:10px 30px;
+}
+.title h1 {
+    margin: auto;
+    font-weight: bold;
+}
+
+
+
+.botton-div {
+    position: relative;
+    width: 100%;
+    
+}
+
+.add {
+    float: right;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 20px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    top: 30px;
+    transition: .5s;
+
+}
+.add .circle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ffd700;
+}
+.add:hover {
+    background-color: #ffd700;
+
+}
+.botton-div .add .circle .icon-plus {
+    position: relative;
+   font-size: 20px;
+}
+.botton-div .add .botton-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.note {
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 260px;
+    background-color: #ffffff;
+    margin: 35px;
+    font-size: 20px;
+    overflow: hidden;
+
+
+
+}
+.operation{
+    position: fixed;
+    width: 350px;
+    background: #ffd700;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.edit,.delete{
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.delete{
+    color: #ff0000;
+}
+.edit{
+    color:#008000;
+}
+
+textarea {
+    
+    padding:30px 10px 0px 10px ;
+    background-color: #ffffff;
+    font-size: 20px;
+    width: 350px;
+    height: 230px;
+    border: none;
+    outline: none;
+    resize: none;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+
+
+}
+
+.hidden {
+    display: none;
+}
