@@ -14,7 +14,7 @@ body {
 }
 ::-webkit-scrollbar-thumb {
     background-color: gold;
-    height: 2%;
+    height: 35%;
 }
 .title {
     background-color: #ffd700;
@@ -84,12 +84,11 @@ body {
     margin: 35px;
     font-size: 20px;
     overflow: hidden;
-
-
+   
 
 }
 .operation{
-    position: fixed;
+    /* position: fixed; */
     width: 350px;
     background: #ffd700;
     display: flex;
@@ -110,16 +109,15 @@ body {
 
 textarea {
     
-    padding:30px 10px 0px 10px ;
+    padding:10px 10px 0px 10px ;
     background-color: #ffffff;
     font-size: 20px;
     width: 350px;
-    height: 230px;
+    height: 100%;
     border: none;
     outline: none;
     resize: none;
     /* overflow: hidden; */
-    /* overflow: scroll; */
 
 
 }
